@@ -199,7 +199,7 @@ While providing liability protection for the authors.
 
 - **Tabish** - Team Member
 - **Usman** - Team Member  
-- **Essam** - Team Member
+- **Mohammed** - Team Member
 - **Saad** - Team Member
 - **Jeva** - Team Member
 
