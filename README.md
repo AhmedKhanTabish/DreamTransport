@@ -1,6 +1,6 @@
 # 🚌 DreamTransport - Public Transport Optimization
 
-An intelligent system for optimizing bus routes and stops for public transport in Neumarkt i.d. OPf. based on passenger data, punctuality analysis, and mathematical optimization algorithms.
+An intelligent system for optimizing bus routes and stops for public transport in **Neumarkt i.d. OPf.** based on passenger data, punctuality analysis, and mathematical optimization algorithms.
 
 ## 📋 Project Overview
 
