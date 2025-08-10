@@ -356,7 +356,7 @@ def evaluate_candidate(baseline_metrics, baseline_routes, cand_routes, stops, G,
 
 # ----------------------- Main optimizer -----------------------
 def run_optimizer(db_path, hubs, mode='greedy', topN=5, max_iters=10, outputs_dir='./hub_optimizer_outputs',
-                  base_threshold=(-1), alpha_percent=30, change_alpha=0.7, weights=None, demand_key='daily_passengers',
+                  base_threshold=(1), alpha_percent=30, change_alpha=0.7, weights=None, demand_key='daily_passengers',
                   enforce_route_count_leq_original=True):
     os.makedirs(outputs_dir, exist_ok=True)
     stops, route_stops, routes = read_db(db_path)
@@ -434,3 +434,4 @@ if __name__ == '__main__':
     hubs = [h.strip() for h in args.hubs.split(',') if h.strip()!='']
     enforce = not args.allow_more_routes
     run_optimizer(args.db, hubs, mode=args.mode, topN=args.topN, max_iters=args.max_iters, outputs_dir=args.out, enforce_route_count_leq_original=enforce)
+
